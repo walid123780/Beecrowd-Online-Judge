@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+
+{
+    double A,B,C,D,E,F,G,I,MEDIA;
+
+    scanf("%lf", &A);
+    scanf("%lf", &B);
+
+    E=3.5;
+    F=7.5;
+
+    G=E+F;
+    C=A*E;
+    D=B*F;
+    I=C+D;
+
+    MEDIA=I/G;
+    printf("MEDIA = %.5lf",MEDIA);
+
+    printf("\n");
+
+    return 0;
+
+}
